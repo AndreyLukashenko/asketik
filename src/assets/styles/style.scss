@@ -1,0 +1,21 @@
+@import "~normalize.css";
+@import "./colors.scss";
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100vh;
+    background: $alabaster;
+    padding: 20px;
+}
+
+body {
+    padding-left: 30px;
+}
+
+.wrapper {
+    display: flex;
+}
