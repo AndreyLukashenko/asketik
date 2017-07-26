@@ -1,0 +1,16 @@
+@import "../assets/styles/colors";
+
+.menu {
+    margin: 0;
+    padding: 0 30px 0 20px;
+    list-style: none;
+
+    a {
+        text-decoration: none;
+        color: $scorpion;
+
+        &:hover {
+            color: $red;
+        }
+    }
+}
